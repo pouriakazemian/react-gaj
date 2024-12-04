@@ -1,4 +1,4 @@
-import styles from '../Footer/styles.module.css';
+import styles from '../footer/style.module.css';
 const Footer=()=>{
     return(
         <section className={styles.container}>

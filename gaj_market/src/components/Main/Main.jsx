@@ -20,9 +20,11 @@ import line6 from '../Main/photos_main/line6.webp'
 import gaj_arm from '../Main/photos_main/gaj_arm.jpg'
 import { Link } from 'react-router-dom'
 import Footer from './Footer/Footer'
+import Slider from './Slider'
 const Main=()=>{
     return(  <>
         <section className={styles.container}>
+            <Slider></Slider>
             <section className={styles.slide}>
             <a href="#"> <img src={piccenter} alt="photo"/></a>
             </section>

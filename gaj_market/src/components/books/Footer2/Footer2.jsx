@@ -1,5 +1,5 @@
-import styles from '../Footer/styles.module.css';
-const Footer=()=>{
+import styles from './styles.module.css';
+const Footer2=()=>{
     return(
         <section className={styles.container}>
          <footer>
@@ -29,8 +29,9 @@ const Footer=()=>{
                     </ul>
                 </div>
             </section>
+
         </footer>
         </section>
     )
 }
-export default Footer;
+export default Footer2;

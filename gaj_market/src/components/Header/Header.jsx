@@ -10,7 +10,9 @@ const Header=()=>{
     <Link to="/"><img src={arm} alt="photo" title="gaj market"/></Link>   
                     <hr/>
                     <ul type="none">
-                        <Link to='/product'><li> کتاب کودک و نوحوان</li></Link>
+                         <Link to='/'><li>صفحه اصلی</li></Link>
+                        <Link to='/product'><li> کتاب کودک و نوجوان</li></Link>
+                        <Link to='/School'><li>لوازم التحریر</li></Link>
                         <Link to="/about"><li> درباره ما</li></Link>
                     </ul>
                 </section>
